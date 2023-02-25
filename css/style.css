@@ -98,11 +98,13 @@ main {
 
 .results-f span {
     color: var(--Light-lavender);
-    display: inline-block;
-    text-align: center;;
+    display: flex;
+    align-items: center;
     font-size: 14px;
-    max-width: 180px;
+    padding: 5px 12px;
 }
+
+
 
 .summary {
     background-color: var(--White);
@@ -236,4 +238,81 @@ main {
 .btn input:hover {
     background-image: linear-gradient(to bottom, var(--Light-slate-blue), var(--Light-royal-blue));
     cursor: pointer;
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width:558px) {
+    main {
+        height: auto;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .results {
+        height: 340px;
+        padding:0;
+        gap: 1.2em;
+        width: 300px;
+    }
+
+    .results-radius {
+        padding: 1.2em 2em;
+    }
+
+    .results-radius span {
+        font-size: 2em;
+    }
+
+    .summary {
+        padding: 20px;
+        width: auto;
+        height: 360px;
+        gap: 1em;
+        
+    }
+
+    .summary-stats {
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .card {
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .results {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        width: 100vw;
+        height: 300px;
+        padding: .9em;
+    }
+
+    .summary {
+        width: 100%;
+        height: 100%;
+    }
+
+    .summary-title {
+        font-size: 1.2em;
+    }
+
+    .s-memory, .s-reaction, .s-verbal, .s-visual, .btn input {
+        width: 100%;
+    }
+
+    @media screen and (max-width:280px) {
+        .results {
+            height: 285px;
+        }
+    }
 }
