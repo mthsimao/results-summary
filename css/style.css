@@ -61,8 +61,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 2em;
-    width: 300px;
-    height: 430px;
+    width: 310px;
+    height: 440px;
     padding: 1.5em;
     border-radius: 20px;
     color: white;
@@ -114,14 +114,15 @@ main {
     align-items: normal;
     justify-content: center;
     gap: 1.5em;
-    width: 300px;
-    height: 430px;
+    width: 310px;
+    height: 440px;
     padding: 1.5em;
     color: black;
     border-radius: 20px;
 }
 
 .summary-title {
+    font-size: 1.4em;
     font-weight: bold;
     text-align: left;
 }
@@ -250,7 +251,7 @@ main {
 
 /* MEDIA */
 
-@media screen and (max-width:558px) {
+@media screen and (max-width:640px) {
     main {
         height: auto;
     }
