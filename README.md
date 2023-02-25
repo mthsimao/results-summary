@@ -9,15 +9,13 @@
     <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href=" LIVE URL">View Demo</a>
-    ·
   </p>
 </div>
 
 <!-- Bagdes -->
 <div align="center">
   <!-- Profile -->
-  <a href="https://www.frontendmentor.io/profile/mthsimao">
+  <a href="https://www.frontendmentor.io/profile/mthsimao" target="_blank">
   </a>
 
 </div>
@@ -36,7 +34,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - Solution URL: [Stats preview card component | Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-tailwind-css-DNUquEvcfB)
 
-- Live Site URL: [ live site url]( live site url)
+- Live Site URL: [https://mthsimao.github.io/results-summary/](https://mthsimao.github.io/results-summary/)
 
 <br>
 
@@ -63,7 +61,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@melvinaguilar](https://www.frontendmentor.io/profile/melvinaguilar)
+- Frontend Mentor - [@mthsimao](https://www.frontendmentor.io/profile/mthsimao)
 
 
 
