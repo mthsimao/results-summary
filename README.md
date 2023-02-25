@@ -32,7 +32,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Stats preview card component | Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-tailwind-css-DNUquEvcfB)
+- Solution URL: [Results summary component | Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-results-summary-component-with-html-and-css-f0zckfeyVW)
 
 - Live Site URL: [https://mthsimao.github.io/results-summary/](https://mthsimao.github.io/results-summary/)
 
