@@ -61,8 +61,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 2em;
-    width: 310px;
-    height: 440px;
+    width: 330px;
+    height: 460px;
     padding: 1.5em;
     border-radius: 20px;
     color: white;
@@ -114,8 +114,8 @@ main {
     align-items: normal;
     justify-content: center;
     gap: 1.5em;
-    width: 310px;
-    height: 440px;
+    width: 330px;
+    height: 460px;
     padding: 1.5em;
     color: black;
     border-radius: 20px;
@@ -132,7 +132,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.4em;
+    gap: 1.5em;
+}
+
+.summary-stats div p {
+    font-size: 1.1em;
 }
 
 .s-reaction {
@@ -140,7 +144,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 270px;
     padding: 12px;
     border-radius: 10px;
     background-color: hsla(0, 100%, 67%, 0.050);
@@ -163,7 +167,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 270px;
     padding: 12px;
     border-radius: 10px;
     background-color: hsl(39, 100%, 56%, 0.080);
@@ -180,13 +184,12 @@ main {
     padding-right: 4px;
 }
 
-
 .s-verbal {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 270px;
     padding: 12px;
     border-radius: 10px;
     background-color: hsla(166, 100%, 37%, 0.050);;
@@ -209,7 +212,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 270px;
     padding: 12px;
     border-radius: 10px;
     background-color: hsl(234, 85%, 45%, 0.050);;
@@ -236,7 +239,7 @@ main {
     background-color: var(--Dark-gray-blue);
     border-radius: 20px;
     color: white;
-    width: 240px;
+    width: 270px;
     padding: 12px;
     border: none;
     outline: none;
