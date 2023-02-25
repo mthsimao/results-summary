@@ -47,7 +47,7 @@ main {
 .card {
     background-color: white;
     border-radius: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.249);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.129);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -143,7 +143,7 @@ main {
     width: 240px;
     padding: 12px;
     border-radius: 10px;
-    background-color: hsla(0, 100%, 67%, 0.100);
+    background-color: hsla(0, 100%, 67%, 0.050);
 }
 
 .s-reaction p {
@@ -166,7 +166,7 @@ main {
     width: 240px;
     padding: 12px;
     border-radius: 10px;
-    background-color: hsl(39, 100%, 56%, 0.100);
+    background-color: hsl(39, 100%, 56%, 0.080);
 }
 
 .s-memory p {
@@ -189,7 +189,7 @@ main {
     width: 240px;
     padding: 12px;
     border-radius: 10px;
-    background-color: hsla(166, 100%, 37%, 0.100);;
+    background-color: hsla(166, 100%, 37%, 0.050);;
 }
 
 .s-verbal p {
@@ -212,7 +212,7 @@ main {
     width: 240px;
     padding: 12px;
     border-radius: 10px;
-    background-color: hsl(234, 85%, 45%, 0.100);;
+    background-color: hsl(234, 85%, 45%, 0.050);;
 }
 
 .s-visual p {
